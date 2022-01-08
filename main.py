@@ -174,7 +174,7 @@ class Saper:
         win_about.wm_title('О программе...')
         tk.Label(win_about, text='Программа: игра \"Сапер \"').grid(row=0, column=0, padx=10, pady=10)
         tk.Label(win_about, text='Автор: Дьяченко Михаил').grid(row=1, column=0, padx=10, pady=10)
-
+        tk.Label(win_about, text='2022').grid(row=1, column=0, padx=10, pady=10)
         ok_btn = tk.Button(win_about, text='ОК', command=win_about.destroy)
         ok_btn.grid (row=2, column=0, columnspan=1, padx=10, pady=10)
 
